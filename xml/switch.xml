@@ -1,0 +1,25 @@
+<root>
+  <buildsheet>
+    <manufacturer></manufacturer>
+    <vin></vin>
+    <make></make>
+    <model></model>
+    <year></year>
+    <odometer></odometer>
+    <trim></trim>
+    <interiorColor></interiorColor>
+    <exteriorColor></exteriorColor>
+    <warranty></warranty>
+    <vehicleLease></vehicleLease>
+    <vehicleFleet></vehicleFleet>
+    <vehicleCpo></vehicleCpo>
+    <connectedServices></connectedServices>
+    <activeRecall></activeRecall>
+    <serviceHistory></serviceHistory>
+    <type></type>
+    <items>
+    <type></type>
+    <enum></enum>
+    </items>
+  </buildsheet>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+<xs:element name="buildsheet">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="buildsheet" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="manufacturer" type="xs:string"/>
+            <xs:element name="vin" type="xs:string"/>
+            <xs:element name="make" type="xs:string"/>
+            <xs:element name="model" type="xs:string"/>
+            <xs:element name="year" type="xs:string"/>
+            <xs:element name="odometer" type="xs:string"/>
+            <xs:element name="trim" type="xs:string"/>
+            <xs:element name="interiorColor" type="xs:string"/>
+            <xs:element name="exteriorColor" type="xs:string"/>
+            <xs:element name="warranty" type="xs:string"/>
+            <xs:element name="vehicleLease" type="xs:string"/>
+            <xs:element name="vehicleFleet" type="xs:string"/>
+            <xs:element name="vehicleCpo" type="xs:string"/>
+            <xs:element name="connectedServices" type="xs:string"/>
+            <xs:element name="activeRecall" type="xs:string"/>
+            <xs:element name="serviceHistory" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="items" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="enum" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

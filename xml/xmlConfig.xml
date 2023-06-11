@@ -1,0 +1,59 @@
+    <xsd:schema
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">    
+        <xsd:element name="Search">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="RecordType"/>
+                    <xsd:element name="Vin"/>
+                    <xsd:element name="Make"/>
+                    <xsd:element name="Model"/>
+                    <xsd:element name="Year"/>
+                    <xsd:element name="FirstName"/>
+                    <xsd:element name="LastName"/>
+                    <xsd:element name="MiddleName"/>
+                    <xsd:element name="Suffix"/>
+                    <xsd:element name="Street"/>
+                    <xsd:element name="City"/>
+                    <xsd:element name="State"/>
+                    <xsd:element name="ZipCode5"/>
+                    <xsd:element name="ZipCode4"/>
+                    <xsd:element name="Phone1"/>
+                    <xsd:element name="Phone2"/>
+                    <xsd:element name="EmailAddress"/>
+                    <xsd:element name="BuildSheet"/>
+                    <xsd:element name="Type"/>
+                    <xsd:element name="RecordCount"/>
+                    <xsd:element name="OEM_Last_Seen_Date"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="buildsheet">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="Manufacturer"/>
+                    <xsd:element name="Vin"/>
+                    <xsd:element name="Make"/>
+                    <xsd:element name="Year"/>
+                    <xsd:element name="Odometer"/>
+                    <xsd:element name="Trim"/>
+                    <xsd:element name="InteriorColor"/>
+                    <xsd:element name="ExteriorColor"/>
+                    <xsd:element name="Warranty"/>
+                    <xsd:element name="VehicleLease"/>
+                    <xsd:element name="VehicleFleet"/>
+                    <xsd:element name="VehicleCpo"/>
+                    <xsd:element name="ConnectedServices"/>
+                    <xsd:element name="ActiveRecall"/>
+                    <xsd:element name="ServiceHistory"/>
+                    <xsd:element name="Items">
+                        <xsd:complexType>   
+                            <xsd:sequence>
+                                <xsd:element name="Type"></xsd:element>
+                                <xsd:element name="ENUM"/>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
